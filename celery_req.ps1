@@ -1,0 +1,5 @@
+$env:DEBUG='1'
+$env:SECRET_KEY='dbaa1_i7%*3r9-=z-+_mz4r-!qeed@(-a_r(g@k8jo8y3r27%m'
+$env:DJANGO_ALLOWED_HOSTS='localhost 127.0.0.1 [::1]'
+$env:CELERY_BROKER='redis://default:xP6JtBIJS2MAPfoLMxZS@containers-us-west-48.railway.app:7317'
+$env:CELERY_BACKEND='redis://default:xP6JtBIJS2MAPfoLMxZS@containers-us-west-48.railway.app:7317'

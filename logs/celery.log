@@ -1,0 +1,302 @@
+[2023-04-02 18:13:16,254: INFO/MainProcess] Connected to redis://default:**@containers-us-west-48.railway.app:7317//
+[2023-04-02 18:13:16,738: INFO/SpawnPoolWorker-2] child process 10824 calling self.run()
+[2023-04-02 18:13:16,754: INFO/SpawnPoolWorker-1] child process 10848 calling self.run()
+[2023-04-02 18:13:16,941: INFO/SpawnPoolWorker-3] child process 7940 calling self.run()
+[2023-04-02 18:13:16,957: INFO/SpawnPoolWorker-4] child process 2892 calling self.run()
+[2023-04-02 18:13:17,035: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-02 18:13:22,504: INFO/MainProcess] mingle: all alone
+[2023-04-02 18:13:27,441: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-02 18:13:27,441: INFO/MainProcess] celery@DESKTOP-SENCPKV ready.
+[2023-04-02 18:13:36,769: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-02 18:14:20,424: INFO/MainProcess] Task tasks.sample_tasks.create_task[2c4a1eee-60e4-4f48-a52f-fab1a9b39c4a] received
+[2023-04-02 18:14:23,899: INFO/SpawnPoolWorker-7] child process 536 calling self.run()
+[2023-04-02 18:14:24,233: INFO/SpawnPoolWorker-5] child process 6564 calling self.run()
+[2023-04-02 18:14:24,317: INFO/SpawnPoolWorker-8] child process 788 calling self.run()
+[2023-04-02 18:14:25,066: INFO/SpawnPoolWorker-6] child process 7636 calling self.run()
+[2023-04-02 18:19:40,956: INFO/MainProcess] Connected to redis://default:**@containers-us-west-48.railway.app:7317//
+[2023-04-02 18:19:41,268: ERROR/MainProcess] Process 'SpawnPoolWorker-3' pid:8108 exited with 'exitcode 3221225786'
+[2023-04-02 18:19:41,270: ERROR/MainProcess] Process 'SpawnPoolWorker-1' pid:6048 exited with 'exitcode 3221225786'
+[2023-04-02 18:19:41,456: ERROR/MainProcess] Process 'SpawnPoolWorker-4' pid:4792 exited with 'exitcode 3221225786'
+[2023-04-02 18:19:41,584: ERROR/MainProcess] Process 'SpawnPoolWorker-2' pid:10464 exited with 'exitcode 3221225786'
+[2023-04-02 18:19:41,761: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-02 18:19:42,731: INFO/SpawnPoolWorker-5] child process 8668 calling self.run()
+[2023-04-02 18:19:42,731: INFO/SpawnPoolWorker-6] child process 10920 calling self.run()
+[2023-04-02 18:19:42,978: INFO/SpawnPoolWorker-7] child process 7732 calling self.run()
+[2023-04-02 18:19:43,072: INFO/SpawnPoolWorker-8] child process 3152 calling self.run()
+[2023-04-02 18:19:54,040: INFO/MainProcess] mingle: all alone
+[2023-04-02 18:20:00,639: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-02 18:20:00,639: INFO/MainProcess] celery@DESKTOP-SENCPKV ready.
+[2023-04-02 18:20:35,580: INFO/MainProcess] Connected to redis://default:**@containers-us-west-48.railway.app:7317//
+[2023-04-02 18:20:36,386: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-02 18:20:41,561: INFO/MainProcess] mingle: all alone
+[2023-04-02 18:20:47,514: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-02 18:20:47,514: INFO/MainProcess] celery@DESKTOP-SENCPKV ready.
+[2023-04-02 18:21:00,210: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-02 18:21:07,267: INFO/MainProcess] Task tasks.sample_tasks.create_task[bb9b4967-73f1-4594-9fe9-d70656c760d6] received
+[2023-04-02 18:21:07,861: WARNING/MainProcess] this
+[2023-04-02 18:21:07,861: WARNING/MainProcess] end
+[2023-04-02 18:21:08,990: INFO/MainProcess] Task tasks.sample_tasks.create_task[bb9b4967-73f1-4594-9fe9-d70656c760d6] succeeded in 1.1720000000004802s: True
+[2023-04-02 18:21:58,363: INFO/MainProcess] Task tasks.sample_tasks.create_task[41f3df7f-6921-4d42-912f-147de1b0b7a9] received
+[2023-04-02 18:21:58,908: WARNING/MainProcess] this
+[2023-04-02 18:21:58,908: WARNING/MainProcess] end
+[2023-04-02 18:21:59,424: INFO/MainProcess] Task tasks.sample_tasks.create_task[41f3df7f-6921-4d42-912f-147de1b0b7a9] succeeded in 0.5160000000014406s: True
+[2023-04-02 18:22:00,467: INFO/MainProcess] Task tasks.sample_tasks.create_task[cecfe2e8-1512-46ad-a496-f63aac70a774] received
+[2023-04-02 18:22:00,994: WARNING/MainProcess] this
+[2023-04-02 18:22:00,994: WARNING/MainProcess] end
+[2023-04-02 18:22:01,510: INFO/MainProcess] Task tasks.sample_tasks.create_task[cecfe2e8-1512-46ad-a496-f63aac70a774] succeeded in 0.5159999999996217s: True
+[2023-04-02 18:22:04,221: INFO/MainProcess] Task tasks.sample_tasks.create_task[121ca672-ef1c-41b9-a777-84ee0eedfe09] received
+[2023-04-02 18:22:04,751: WARNING/MainProcess] this
+[2023-04-02 18:22:04,751: WARNING/MainProcess] end
+[2023-04-02 18:22:05,263: INFO/MainProcess] Task tasks.sample_tasks.create_task[121ca672-ef1c-41b9-a777-84ee0eedfe09] succeeded in 0.5159999999996217s: True
+[2023-04-02 18:22:12,374: INFO/MainProcess] Task tasks.sample_tasks.create_task[b712117f-9812-47e8-a9b1-7b8cbb6c272b] received
+[2023-04-02 18:22:12,910: WARNING/MainProcess] this
+[2023-04-02 18:22:12,910: WARNING/MainProcess] end
+[2023-04-02 18:22:13,410: INFO/MainProcess] Task tasks.sample_tasks.create_task[b712117f-9812-47e8-a9b1-7b8cbb6c272b] succeeded in 0.5s: True
+[2023-04-02 18:22:36,415: INFO/MainProcess] Task tasks.sample_tasks.create_task[3ab1d58b-39f9-46f7-9d78-db8a9a598103] received
+[2023-04-02 18:22:36,962: WARNING/MainProcess] this
+[2023-04-02 18:22:36,962: WARNING/MainProcess] end
+[2023-04-02 18:22:37,466: INFO/MainProcess] Task tasks.sample_tasks.create_task[3ab1d58b-39f9-46f7-9d78-db8a9a598103] succeeded in 0.5s: True
+[2023-04-02 18:22:45,013: INFO/MainProcess] Task tasks.sample_tasks.create_task[6cbfad55-20b2-4ce1-8c3e-8257b39f2fca] received
+[2023-04-02 18:22:45,548: WARNING/MainProcess] this
+[2023-04-02 18:22:45,548: WARNING/MainProcess] end
+[2023-04-02 18:22:46,060: INFO/MainProcess] Task tasks.sample_tasks.create_task[6cbfad55-20b2-4ce1-8c3e-8257b39f2fca] succeeded in 0.5149999999994179s: True
+[2023-04-02 18:22:58,925: INFO/MainProcess] Task tasks.sample_tasks.create_task[7e3562f3-b754-4589-83e2-3080c7883a3c] received
+[2023-04-02 18:22:59,730: WARNING/MainProcess] this
+[2023-04-02 18:22:59,730: WARNING/MainProcess] end
+[2023-04-02 18:23:00,245: INFO/MainProcess] Task tasks.sample_tasks.create_task[7e3562f3-b754-4589-83e2-3080c7883a3c] succeeded in 0.5159999999996217s: True
+[2023-04-02 18:23:29,950: INFO/MainProcess] Connected to redis://default:**@containers-us-west-48.railway.app:7317//
+[2023-04-02 18:23:31,497: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-02 18:23:36,704: INFO/MainProcess] mingle: all alone
+[2023-04-02 18:23:41,885: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-02 18:23:41,885: INFO/MainProcess] celery@DESKTOP-SENCPKV ready.
+[2023-04-02 18:23:42,572: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-02 18:23:43,827: INFO/MainProcess] Task tasks.sample_tasks.create_task[7387ff15-360d-4710-b348-3ddded6e73c9] received
+[2023-04-02 18:23:44,368: WARNING/MainProcess] this
+[2023-04-02 18:24:14,381: WARNING/MainProcess] end
+[2023-04-02 18:24:15,403: INFO/MainProcess] Task tasks.sample_tasks.create_task[7387ff15-360d-4710-b348-3ddded6e73c9] succeeded in 31.03099999999904s: True
+[2023-04-02 18:24:16,936: INFO/MainProcess] Task tasks.sample_tasks.create_task[bbc241bf-8967-4848-8044-c58f8e42db98] received
+[2023-04-02 18:24:17,745: WARNING/MainProcess] this
+[2023-04-02 18:24:27,750: WARNING/MainProcess] end
+[2023-04-02 18:24:28,266: INFO/MainProcess] Task tasks.sample_tasks.create_task[bbc241bf-8967-4848-8044-c58f8e42db98] succeeded in 10.515999999999622s: True
+[2023-04-02 18:42:28,239: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\connection.py", line 812, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\connection.py", line 249, in readline
+    self._read_from_socket()
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\connection.py", line 192, in _read_from_socket
+    data = self._sock.recv(socket_read_size)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\django_test\django-celery\venv\lib\site-packages\celery\worker\consumer\consumer.py", line 332, in start
+    blueprint.start(self)
+  File "D:\django_test\django-celery\venv\lib\site-packages\celery\bootsteps.py", line 116, in start
+    step.start(parent)
+  File "D:\django_test\django-celery\venv\lib\site-packages\celery\worker\consumer\consumer.py", line 628, in start
+    c.loop(*c.loop_args())
+  File "D:\django_test\django-celery\venv\lib\site-packages\celery\worker\loops.py", line 130, in synloop
+    connection.drain_events(timeout=2.0)
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\connection.py", line 316, in drain_events
+    return self.transport.drain_events(self.connection, **kwargs)
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\transport\virtual\base.py", line 971, in drain_events
+    get(self._deliver, timeout=timeout)
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\transport\redis.py", line 584, in get
+    ret = self.handle_event(fileno, event)
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\transport\redis.py", line 566, in handle_event
+    return self.on_readable(fileno), self
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\transport\redis.py", line 562, in on_readable
+    chan.handlers[type]()
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\transport\redis.py", line 906, in _receive
+    ret.append(self._receive_one(c))
+  File "D:\django_test\django-celery\venv\lib\site-packages\kombu\transport\redis.py", line 916, in _receive_one
+    response = c.parse_response()
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\client.py", line 1531, in parse_response
+    response = self._execute(conn, try_read)
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\client.py", line 1507, in _execute
+    return conn.retry.call_with_retry(
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\retry.py", line 49, in call_with_retry
+    fail(error)
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\client.py", line 1509, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\client.py", line 1496, in _disconnect_raise_connect
+    raise error
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\retry.py", line 46, in call_with_retry
+    return do()
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\client.py", line 1508, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\client.py", line 1529, in try_read
+    return conn.read_response()
+  File "D:\django_test\django-celery\venv\lib\site-packages\redis\connection.py", line 818, in read_response
+    raise ConnectionError(f"Error while reading from {hosterr}" f" : {e.args}")
+redis.exceptions.ConnectionError: Error while reading from containers-us-west-48.railway.app:7317 : (10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)
+[2023-04-02 18:42:35,786: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\worker\consumer\consumer.py:367: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered back to the queue.
+You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss setting.
+In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2023-04-04 22:57:13,765: INFO/SpawnPoolWorker-1] child process 3740 calling self.run()
+[2023-04-04 22:57:14,077: INFO/SpawnPoolWorker-3] child process 11432 calling self.run()
+[2023-04-04 22:57:14,109: INFO/SpawnPoolWorker-2] child process 920 calling self.run()
+
+[2023-04-04 22:57:14,687: INFO/MainProcess] Connected to redis://default:**@containers-us-west-48.railway.app:7317//
+[2023-04-04 22:57:15,484: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-04 22:57:27,556: INFO/MainProcess] mingle: all alone
+[2023-04-04 22:57:32,463: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-04 22:57:32,478: INFO/MainProcess] celery@DESKTOP-SENCPKV ready.
+[2023-04-04 22:57:32,994: INFO/MainProcess] Task tasks.sample_tasks.create_task[cbeae304-bfb1-4d97-a504-dfb1adc8a1d9] received
+[2023-04-04 22:57:33,525: INFO/MainProcess] Task tasks.sample_tasks.create_task[c1d47b94-9a88-431b-835c-3d848b740964] received
+[2023-04-04 22:57:34,197: INFO/MainProcess] Task tasks.sample_tasks.create_task[a89e362f-b430-441c-bf3e-940a47967c67] received
+[2023-04-04 22:57:34,244: INFO/SpawnPoolWorker-5] child process 2676 calling self.run()
+[2023-04-04 22:57:34,713: INFO/MainProcess] Task tasks.sample_tasks.create_task[53c07593-e91b-4c97-9143-ccf1ff1cc941] received
+[2023-04-04 22:57:35,150: INFO/SpawnPoolWorker-6] child process 11880 calling self.run()
+[2023-04-04 22:57:35,213: INFO/MainProcess] Task tasks.sample_tasks.create_task[4cd68811-2098-42d5-8cad-1854bdc85fc2] received
+[2023-04-04 22:57:35,728: INFO/MainProcess] Task tasks.sample_tasks.create_task[d9e98c3e-9cda-4b5b-bcab-3404be3aa6cd] received
+[2023-04-04 22:57:36,228: INFO/MainProcess] Task tasks.sample_tasks.create_task[6292a8c7-b851-4f82-96c4-c4b3ff0d5723] received
+[2023-04-04 22:57:37,416: INFO/MainProcess] Task tasks.sample_tasks.create_task[28894aa0-a392-4fc9-bce3-85849c4da2b4] received
+[2023-04-04 22:57:37,603: INFO/SpawnPoolWorker-7] child process 8200 calling self.run()
+[2023-04-04 22:57:39,041: INFO/MainProcess] Task tasks.sample_tasks.create_task[2c4a1eee-60e4-4f48-a52f-fab1a9b39c4a] received
+[2023-04-04 22:57:39,259: INFO/SpawnPoolWorker-8] child process 3924 calling self.run()
+[2023-04-04 23:02:20,440: INFO/MainProcess] Connected to redis://default:**@containers-us-west-48.railway.app:7317//
+[2023-04-04 23:02:22,065: INFO/MainProcess] mingle: searching for neighbors
+[2023-04-04 23:02:27,346: INFO/MainProcess] mingle: all alone
+[2023-04-04 23:02:28,674: INFO/MainProcess] pidbox: Connected to redis://default:**@containers-us-west-48.railway.app:7317//.
+[2023-04-04 23:02:29,674: WARNING/MainProcess] D:\django_test\django-celery\venv\lib\site-packages\celery\fixups\django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2023-04-04 23:02:29,674: INFO/MainProcess] celery@DESKTOP-SENCPKV ready.
+[2023-04-04 23:02:30,206: INFO/MainProcess] Task tasks.sample_tasks.create_task[df14df29-7d52-43aa-a207-ff4a57175ee4] received
+[2023-04-04 23:02:30,221: WARNING/MainProcess] Task Started
+[2023-04-04 23:02:39,612: WARNING/MainProcess] done
+[2023-04-04 23:02:43,245: WARNING/MainProcess] done
+[2023-04-04 23:02:46,698: WARNING/MainProcess] done
+[2023-04-04 23:02:50,323: WARNING/MainProcess] done
+[2023-04-04 23:02:54,555: WARNING/MainProcess] done
+[2023-04-04 23:03:00,769: WARNING/MainProcess] done
+[2023-04-04 23:03:01,365: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-04-04 23:03:06,053: WARNING/MainProcess] done
+[2023-04-04 23:03:11,419: WARNING/MainProcess] done
+[2023-04-04 23:03:11,419: INFO/MainProcess] Task tasks.sample_tasks.create_task[b42f306a-7db9-453e-a5fa-3b25abc8b19b] received
+[2023-04-04 23:03:15,063: WARNING/MainProcess] done
+[2023-04-04 23:03:19,252: WARNING/MainProcess] done
+[2023-04-04 23:03:19,252: WARNING/MainProcess] Task Started
+[2023-04-04 23:03:19,714: WARNING/MainProcess]                      0                 1  ...                  5                   6
+0             store_id  uptime_last_hour  ...  downtime_last_day  downtime_last_week
+1  8419537941919820732                60  ...                0.0               115.0
+2    54515546588432327                60  ...                0.0                50.0
+3  8377465688456570187                60  ...                0.0                60.0
+4  5955337179846162144                60  ...                0.0                45.0
+
+[5 rows x 7 columns]
+[2023-04-04 23:03:19,714: WARNING/MainProcess] Task Ended
+[2023-04-04 23:03:23,180: WARNING/MainProcess] done
+[2023-04-04 23:03:27,394: WARNING/MainProcess] done
+[2023-04-04 23:03:31,284: WARNING/MainProcess] done
+[2023-04-04 23:03:31,331: INFO/MainProcess] Task tasks.sample_tasks.create_task[df14df29-7d52-43aa-a207-ff4a57175ee4] succeeded in 61.10899999999674s: 'static/resHAWEmwCSOZ.csv'
+[2023-04-04 23:03:35,021: WARNING/MainProcess] done
+[2023-04-04 23:03:38,720: WARNING/MainProcess] done
+[2023-04-04 23:03:43,020: WARNING/MainProcess] done
+[2023-04-04 23:03:47,501: WARNING/MainProcess] done
+[2023-04-04 23:03:51,470: WARNING/MainProcess] done
+[2023-04-04 23:03:55,885: WARNING/MainProcess] done
+[2023-04-04 23:03:59,744: WARNING/MainProcess] done
+[2023-04-04 23:03:59,764: WARNING/MainProcess]                      0                 1  ...                  5                   6
+0             store_id  uptime_last_hour  ...  downtime_last_day  downtime_last_week
+1  8419537941919820732                60  ...                0.0               115.0
+2    54515546588432327                60  ...                0.0                50.0
+3  8377465688456570187                60  ...                0.0                60.0
+4  5955337179846162144                60  ...                0.0                45.0
+
+[5 rows x 7 columns]
+[2023-04-04 23:03:59,765: WARNING/MainProcess] Task Ended
+[2023-04-04 23:04:00,504: INFO/MainProcess] Task tasks.sample_tasks.create_task[b5f088d3-56e5-4d67-8f1f-5dc753cb990d] received
+[2023-04-04 23:04:00,765: INFO/MainProcess] Task tasks.sample_tasks.create_task[b42f306a-7db9-453e-a5fa-3b25abc8b19b] succeeded in 41.51600000000326s: 'static/resMWMTxgAqDD.csv'
+[2023-04-04 23:04:01,045: WARNING/MainProcess] Task Started
+[2023-04-04 23:04:05,409: WARNING/MainProcess] done
+[2023-04-04 23:04:09,947: WARNING/MainProcess] done
+[2023-04-04 23:04:09,947: INFO/MainProcess] Task tasks.sample_tasks.create_task[3031102c-60b3-4568-930d-8e8efa2a5653] received
+[2023-04-04 23:04:14,973: WARNING/MainProcess] done
+[2023-04-04 23:04:15,775: WARNING/MainProcess] Task Started
+[2023-04-04 23:04:16,248: INFO/MainProcess] Task tasks.sample_tasks.create_task[07065d89-5a20-4e23-a75a-cc690cac7b46] received
+[2023-04-04 23:04:19,618: WARNING/MainProcess] done
+[2023-04-04 23:04:22,896: WARNING/MainProcess] done
+[2023-04-04 23:04:27,153: WARNING/MainProcess] done
+[2023-04-04 23:04:30,664: WARNING/MainProcess] done
+[2023-04-04 23:04:34,831: WARNING/MainProcess] done
+[2023-04-04 23:04:37,848: WARNING/MainProcess] done
+[2023-04-04 23:04:38,740: WARNING/MainProcess] Task Started
+[2023-04-04 23:04:42,354: WARNING/MainProcess] done
+[2023-04-04 23:04:45,604: WARNING/MainProcess] done
+[2023-04-04 23:04:49,214: WARNING/MainProcess] done
+[2023-04-04 23:04:55,482: WARNING/MainProcess] done
+[2023-04-04 23:04:58,580: WARNING/MainProcess] done
+[2023-04-04 23:05:01,970: WARNING/MainProcess] done
+[2023-04-04 23:05:06,455: WARNING/MainProcess] done
+[2023-04-04 23:05:09,611: WARNING/MainProcess] done
+[2023-04-04 23:05:12,674: WARNING/MainProcess] done
+[2023-04-04 23:05:17,127: WARNING/MainProcess] done
+[2023-04-04 23:05:20,377: WARNING/MainProcess] done
+[2023-04-04 23:05:23,549: WARNING/MainProcess] done
+[2023-04-04 23:05:23,580: WARNING/MainProcess]                      0                 1  ...                  5                   6
+0             store_id  uptime_last_hour  ...  downtime_last_day  downtime_last_week
+1  8419537941919820732                60  ...                0.0               115.0
+2    54515546588432327                60  ...                0.0                50.0
+3  8377465688456570187                60  ...                0.0                60.0
+4  5955337179846162144                60  ...                0.0                45.0
+
+[5 rows x 7 columns]
+[2023-04-04 23:05:23,580: WARNING/MainProcess] Task Ended
+[2023-04-04 23:05:27,605: WARNING/MainProcess] done
+[2023-04-04 23:05:33,033: WARNING/MainProcess] done
+[2023-04-04 23:05:37,756: WARNING/MainProcess] done
+[2023-04-04 23:05:41,030: WARNING/MainProcess] done
+[2023-04-04 23:05:41,030: INFO/MainProcess] Task tasks.sample_tasks.create_task[b5f088d3-56e5-4d67-8f1f-5dc753cb990d] succeeded in 99.98499999998603s: 'static/resILLcgLXClE.csv'
+[2023-04-04 23:05:45,176: WARNING/MainProcess] done
+[2023-04-04 23:05:49,200: WARNING/MainProcess] done
+[2023-04-04 23:05:49,231: WARNING/MainProcess]                      0                 1  ...                  5                   6
+0             store_id  uptime_last_hour  ...  downtime_last_day  downtime_last_week
+1  8419537941919820732                60  ...                0.0               115.0
+2    54515546588432327                60  ...                0.0                50.0
+3  8377465688456570187                60  ...                0.0                60.0
+4  5955337179846162144                60  ...                0.0                45.0
+
+[5 rows x 7 columns]
+[2023-04-04 23:05:49,231: WARNING/MainProcess] Task Ended
+[2023-04-04 23:05:53,479: WARNING/MainProcess] done
+[2023-04-04 23:05:57,140: WARNING/MainProcess] done
+[2023-04-04 23:05:57,140: INFO/MainProcess] Task tasks.sample_tasks.create_task[3031102c-60b3-4568-930d-8e8efa2a5653] succeeded in 101.375s: 'static/resgbLfYhwCDH.csv'
+[2023-04-04 23:06:01,348: WARNING/MainProcess] done
+[2023-04-04 23:06:01,367: WARNING/MainProcess]                      0                 1  ...                  5                   6
+0             store_id  uptime_last_hour  ...  downtime_last_day  downtime_last_week
+1  8419537941919820732                60  ...                0.0               115.0
+2    54515546588432327                60  ...                0.0                50.0
+3  8377465688456570187                60  ...                0.0                60.0
+4  5955337179846162144                60  ...                0.0                45.0
+
+[5 rows x 7 columns]
+[2023-04-04 23:06:01,367: WARNING/MainProcess] Task Ended
+[2023-04-04 23:06:02,417: INFO/MainProcess] Task tasks.sample_tasks.create_task[07065d89-5a20-4e23-a75a-cc690cac7b46] succeeded in 83.67200000002049s: 'static/resFaqdhrGIRc.csv'

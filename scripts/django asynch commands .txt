@@ -1,0 +1,1 @@
+celery --app=core worker --loglevel=info --logfile=logs/celery.log -P eventlet
