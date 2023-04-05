@@ -129,7 +129,7 @@ def run():
 	df_list = [['store_id', 'uptime_last_hour', 'uptime_last_day','update_last_week', \
 		'downtime_last_hour', 'downtime_last_day', 'downtime_last_week' ] ]
 	thread_list = []
-	for id in ids[:10]:
+	for id in ids[:1000]:
 		x = StoreStatus.objects.filter(storeid=id['storeid'])
 		max_date = x.aggregate(models.Max('date_utc'))
 		week_list = [max_date['date_utc__max'] - timedelta(days=x) for x in range(7)]
