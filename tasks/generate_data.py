@@ -146,8 +146,7 @@ def run():
 	path = str( 'static/res' + randomstring(10) + '.csv' )
 	df.to_csv(path, index=False,encoding='utf-8')
 	
-	print(df.head())
-	return path 
+	return f' Entries: {len(df_list)}'   
 		
 		
 			
