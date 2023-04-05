@@ -27,7 +27,7 @@ def get_row_store_timezone(reader):
 		lis.append( x )
 	return lis
 
-def run(entries):
+def run():
 	global StoreStatus
 	lis = []
 	StoreStatus.objects.all().delete()
@@ -52,7 +52,7 @@ def run(entries):
 			print(f' Filename:{filename} Total enties:{len(lis)}  ' )
 			
 			i = 0			
-			while i<int(entries):
+			while i<100:
 				batch = lis[i*50000:(i+1)*50000]
 				if len(batch)==0: 
 					break 
