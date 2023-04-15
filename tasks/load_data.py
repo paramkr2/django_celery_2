@@ -13,8 +13,8 @@ def get_row_store_status(reader):
 		i+=1
 		x = StoreStatus(storeid=row[0], status=row[1] , date_utc=row[2][:10] , time_utc=row[2][11:-5])   
 		lis.append( x )
-		if(i%1000==0):
-			print(f'Appended {i*1000}')
+		if(i%10000==0):
+			print(f'Appended {i//1000} thousand')
 	return lis
 
 def get_row_business_hours(reader):
