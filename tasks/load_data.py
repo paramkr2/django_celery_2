@@ -28,6 +28,7 @@ def get_row_store_timezone(reader):
 	return lis
 
 def load():
+	print(f'Inside Load_data file');
 	global StoreStatus
 	lis = []
 	StoreStatus.objects.all().delete()
