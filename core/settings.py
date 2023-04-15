@@ -27,8 +27,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True 
 
-ALLOWED_HOSTS = ['djangocelery2-production.up.railway.app', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app']
+ALLOWED_HOSTS = ['djangocelery2-production.up.railway.app','django-celery.onrender.com', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-3640.up.railway.app','https://django-celery.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
