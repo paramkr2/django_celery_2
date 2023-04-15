@@ -11,6 +11,7 @@ def get_row_store_status(reader):
 	for row in reader :
 		x = StoreStatus(storeid=row[0], status=row[1] , date_utc=row[2][:10] , time_utc=row[2][11:-5])   
 		lis.append( x )
+		print(f'Appending')
 	return lis
 
 def get_row_business_hours(reader):
